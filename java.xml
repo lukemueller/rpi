@@ -1,0 +1,17 @@
+<templateSet group="java">
+  <template name="test" value="@Test&#10;public void $NAME$() {&#10;    $END$&#10;}" description="JUnit Test" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="setup" value="@Before&#10;public void setup() {&#10;    $END$&#10;}" description="JUnit @Before Block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,10 @@
+# IntelliJ
+.idea/
+.gradle/
+
+# OSX
+*.DS_Store
+
+# Java
+build/
+target/
